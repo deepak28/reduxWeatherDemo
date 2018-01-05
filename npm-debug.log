@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.3
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle myfirstprogram@1.0.0~prestart: myfirstprogram@1.0.0
+6 silly lifecycle myfirstprogram@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle myfirstprogram@1.0.0~start: myfirstprogram@1.0.0
+8 verbose lifecycle myfirstprogram@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle myfirstprogram@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/share/nginx/html/reduxWeatherDemo/reduxWeathertask/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle myfirstprogram@1.0.0~start: CWD: /usr/share/nginx/html/reduxWeatherDemo/reduxWeathertask
+11 silly lifecycle myfirstprogram@1.0.0~start: Args: [ '-c',
+11 silly lifecycle   'webpack-dev-server --port 6006 --hot --host 172.31.17.235' ]
+12 verbose stack Error: spawn ENOMEM
+12 verbose stack     at exports._errnoException (util.js:1033:11)
+12 verbose stack     at ChildProcess.spawn (internal/child_process.js:319:11)
+12 verbose stack     at exports.spawn (child_process.js:386:9)
+12 verbose stack     at spawn (/usr/lib/node_modules/npm/lib/utils/spawn.js:21:13)
+12 verbose stack     at runCmd_ (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:271:14)
+12 verbose stack     at runCmd (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:232:5)
+12 verbose stack     at runPackageLifecycle (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:198:3)
+12 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+12 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+12 verbose stack     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+13 verbose cwd /usr/share/nginx/html/reduxWeatherDemo/reduxWeathertask
+14 error Linux 3.13.0-107-generic
+15 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+16 error node v7.7.3
+17 error npm  v4.1.2
+18 error code ENOMEM
+19 error errno ENOMEM
+20 error syscall spawn
+21 error spawn ENOMEM
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
